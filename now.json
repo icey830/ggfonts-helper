@@ -8,13 +8,12 @@
   },
   "alias":"ggfonts-helper-nlk6a1qji.now.sh",
    "env": {
-    "BASE_URL": "https://badge.elvns.com"
+    "BASE_URL": "http://git.elvns.com/ggfonts-helper"
   },
   "builds": [
     {
       "src": "server/app.js ",
-      "use": "@now/node",
-      "config": { "maxLambdaSize": "40mb" }
+      "use": "@now/node"
     }
   ]
  }
