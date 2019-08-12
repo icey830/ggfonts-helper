@@ -1,0 +1,20 @@
+{
+"version": 2,
+"name": "ggfonts-helper",
+"build": {
+    "env": {
+      "PUPPETEER_SKIP_CHROMIUM_DOWNLOAD": "true"
+    }
+  },
+  "alias":"ggfonts-helper-nlk6a1qji.now.sh",
+   "env": {
+    "BASE_URL": "https://badge.elvns.com"
+  },
+  "builds": [
+    {
+      "src": "server/app.js ",
+      "use": "@now/node",
+      "config": { "maxLambdaSize": "40mb" }
+    }
+  ]
+ }
